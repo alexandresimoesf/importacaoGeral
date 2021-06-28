@@ -23,7 +23,9 @@ class Clinica:
         self.doctor.tabela_permissao_prontuario()
         self.doctor.tabela_agenda()
 
-    def criar_paciente_anamnese(self) -> None:
+    def criar_paciente_anamnese_completo(self) -> None:
         self.doctor.tabela_pacientes()
+        self.doctor.tabela_prontuario()
+        self.doctor.tabela_permissao_prontuario()
         self.doctor.tabela_agenda()
         self.doctor.tabela_anamnese()
