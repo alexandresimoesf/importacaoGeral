@@ -1,10 +1,10 @@
 class Gerador:
 
     def __init__(self) -> None:
-        self.parts = []
+        self.tabelas = []
 
-    def add(self, part) -> None:
-        self.parts.append(part)
+    def add(self, tabela) -> None:
+        self.tabelas.append(tabela)
 
-    def list_parts(self) -> None:
-        print(f"Gerar : {', '.join(self.parts)}", end="")
+    def listar_tarefas(self) -> None:
+        print(f"Gerar : {', '.join(self.tabelas)}")

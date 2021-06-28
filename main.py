@@ -11,5 +11,5 @@ doctor = Tabela()
 importar.doctor = doctor
 
 importar.criar_paciente_anamnese_completo()
-doctor.product.list_parts()
+doctor.product.listar_tarefas()
 

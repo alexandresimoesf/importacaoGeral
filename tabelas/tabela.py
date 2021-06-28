@@ -1,5 +1,6 @@
 from interface.doctor import Doctor
 from geradores.gerador import Gerador
+from sqls.sql import Agenda, Pacientes, Prontuario, Anamnese
 
 
 class Tabela(Doctor):
@@ -15,7 +16,6 @@ class Tabela(Doctor):
         product = self._product
         self.reset()
         return product
-
 
     def produzir_sql(self):
         self._product.add("PartA0")
