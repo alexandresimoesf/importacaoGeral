@@ -8,7 +8,8 @@ from sqls.sql import sql_inicio,\
 
 class Tabela(Doctor):
 
-    def __init__(self):
+    def __init__(self, id_da_clinica=None):
+        self._id_da_clinica = id_da_clinica
         self.reset()
 
     def reset(self) -> None:

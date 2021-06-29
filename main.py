@@ -7,7 +7,7 @@ from geradores.gerador import Gerador
 # Dretor = Clinica
 
 importar = Clinica()
-doctor = Tabela()
+doctor = Tabela(id_da_clinica=83)
 importar.doctor = doctor
 
 # importar.criar_paciente_anamnese_completo()
