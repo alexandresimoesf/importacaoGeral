@@ -10,6 +10,10 @@ importar = Clinica()
 doctor = Tabela()
 importar.doctor = doctor
 
-importar.criar_paciente_anamnese_completo()
-doctor.product.listar_tarefas()
-
+# importar.criar_paciente_anamnese_completo()
+# doctor.product.listar_tarefas()
+doctor.tabela_pacientes()
+doctor.tabela_agenda()
+doctor.tabela_prontuario()
+doctor.tabela_permissao_prontuario()
+doctor.tabela_anamnese()
